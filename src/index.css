@@ -9,6 +9,11 @@ body {
   margin: 0;
 }
 
+/* .appWrapper {
+  height: 100%;
+  width: 100%;
+} */
+
 *,
 *:before,
 *:after {

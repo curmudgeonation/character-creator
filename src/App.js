@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './index.css';
 import CharacterEditor from './components/CharacterEditor';
 import Footer from './components/Footer';
 

@@ -3,11 +3,23 @@
   padding-bottom: 64px;
 }
 
+.perspectivePanel {
+  height: 40vh;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  background-color: hsl(195deg, 20%, 86%);
+  z-index: -1;
+}
+
 .maxWidthWrapper {
+  max-width: 1024px;
 }
 
 .header {
   padding-bottom: 64px;
+  width: 65%;
 }
 
 .title {
@@ -24,7 +36,15 @@
 }
 
 .characterWrapper {
+  position: fixed;
+  left: 60%;
+  top: 128px;
+  height: 80vh;
+  min-height: 500px;
+  width: 35%;
+  background-size: cover;
 }
 
 .controlColumn {
+  max-width: 50%;
 }

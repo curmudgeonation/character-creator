@@ -6,3 +6,8 @@
   text-align: center;
 }
 
+*:any-link {
+  color: white;
+  font-weight: bold; 
+}
+
